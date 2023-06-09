@@ -24,15 +24,15 @@
     padding-right: 2rem;
 }
 
-hr{
+.middle-section{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.grey-bar{
     height: inherit;
     width: 0.9rem;
     border: none;
     background-color: var(--grey);
-}
-
-.div{
-    display: flex;
-    gap: 1rem;
-    padding-left: 1rem;
 }

@@ -1,18 +1,38 @@
 .main {
   flex-direction: column;
+  gap: 2rem;
+  padding-top: 1rem;
 }
 
 .main__article {
-  padding: 1rem;
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1.7rem;
 }
 
-.main__article-title {
+.article__title {
   font-size: 1.2rem;
 }
 
-.main__article-text {
+.article__text {
   font-size: 0.8rem;
+}
+
+.article__text-middle{
+    padding-right: 2rem;
+}
+
+hr{
+    height: inherit;
+    width: 0.9rem;
+    border: none;
+    background-color: var(--grey);
+}
+
+.div{
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
 }

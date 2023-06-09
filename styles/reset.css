@@ -9,3 +9,15 @@ body,
 .main {
   height: 100%;
 }
+
+body {
+  background-color: var(--White);
+  font-size: 16px;
+  font-family: var(--fontPrimary);
+}
+
+.is-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

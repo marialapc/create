@@ -32,4 +32,9 @@
   font-size: 0.9rem;
   font-weight: 100;
   color: var(--white);
+  transition: background-color 0.2s ease;
 }
+
+.header__menu-element:hover {
+  background-color: var(--lightRed);
+  }

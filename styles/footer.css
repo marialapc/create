@@ -1,17 +1,19 @@
 .footer{
     flex-direction: column;
     background-color: var(--orange);
+   
 }
-.footer__menu {
-    width: 100%;
-  }
+
   
   .footer__menu-list {
     list-style: none;
+    padding-top: 1rem;
   }
   
   .footer__menu-element {
-    padding: 0.5rem;
+    padding: 0.7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
     font-size: 0.9rem;
     font-weight: 100;
     color: var(--white);
@@ -21,4 +23,12 @@
 
   .footer__icon-list{
     list-style: none;
+    padding-bottom: 1rem;
+  }
+
+  .footer__icon{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--white);
+    background-color: var(--brown);
   }

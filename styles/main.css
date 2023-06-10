@@ -41,8 +41,7 @@
 }
 .grey-bar {
   height: inherit;
-  width: 0.9rem;
-  border: none;
+  border: 2px solid var(--grey);
   background-color: var(--grey);
 }
 

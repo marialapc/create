@@ -1,5 +1,6 @@
 .main {
   flex-direction: column;
+  justify-content:flex-start;
   gap: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -34,8 +35,8 @@
 
 .black-bar{
   width: 100%;
-  height: 0.125rem;
-  background-color: black;
+  height: 1px;
+  border-bottom: 1px solid var(--black);
 }
 .grey-bar{
     height: inherit;

@@ -1,13 +1,15 @@
 .footer {
   position: fixed;
   width: 100%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
   flex-direction: column;
   background-color: var(--orange);
 }
 
 .footer__menu-list {
   list-style: none;
-  padding-top: 1rem;
+  background-color: var(--red);
 }
 
 .footer__menu-element {
@@ -17,18 +19,26 @@
   font-size: 0.9rem;
   font-weight: 100;
   color: var(--white);
-  background-color: var(--red);
   transition: background-color 0.2s ease;
 }
 
 .footer__icon-list {
   list-style: none;
-  padding-bottom: 1rem;
+  background-color: var(--brown);
 }
 
 .footer__icon {
   padding: 0.7rem;
   font-size: 0.9rem;
   color: var(--white);
-  background-color: var(--brown);
+}
+
+
+@media (min-width: 700px) {
+  .footer{
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 5rem;
+  padding-left: 5rem;
+ }
 }

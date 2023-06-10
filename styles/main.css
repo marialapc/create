@@ -3,6 +3,7 @@
   gap: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  min-height: calc(100vh - 14.4rem);
 }
 
 .main__article {
@@ -31,6 +32,10 @@
     padding-left: 1rem;
 }
 
+.black-bar{
+  height: 1rem;
+  background-color: black;
+}
 .grey-bar{
     height: inherit;
     width: 0.9rem;

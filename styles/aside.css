@@ -1,20 +1,19 @@
-.aside{
-    display: none;
+.aside {
+  display: none;
 }
 
 @media (min-width: 700px) {
-    .aside {
+  .aside {
     display: flex;
     flex-direction: column;
     padding: 1rem;
     gap: 1rem;
     margin-right: 4%;
     background-color: var(--green);
-    }
-    .aside__div{
-        width: 12rem;
-        height: 8rem;
-        background-color: var(--orange);
-    }
   }
-  
+  .aside__div {
+    width: 12rem;
+    height: 8rem;
+    background-color: var(--orange);
+  }
+}

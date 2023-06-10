@@ -18,7 +18,7 @@
 }
 
 .header__menu {
-width: 100%;
+  width: 100%;
 }
 
 .header__menu-list {
@@ -38,25 +38,22 @@ width: 100%;
 
 .header__menu-element:hover {
   background-color: var(--lightRed);
-  }
+}
 
-   @media (min-width: 700px) {
-    .header{
-     
+@media (min-width: 700px) {
+  .header {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 2.5rem;
     padding-right: 5rem;
-   }
+  }
 
-   .header__menu {
+  .header__menu {
     width: 30rem;
-    }
+  }
 
-.header__menu-element {
- width: calc(100% / 4);
- text-align: center;
+  .header__menu-element {
+    width: calc(100% / 4);
+    text-align: center;
+  }
 }
-
-
-   } 

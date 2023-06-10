@@ -1,4 +1,7 @@
-
+.main__section {
+  display: flex;
+  background-color: var(--white);
+}
 .main {
   flex-direction: column;
   justify-content: flex-start;
@@ -46,14 +49,10 @@
 }
 
 @media (min-width: 700px) {
-  .main__section{
-    display: flex;
+  .main__section {
     margin-left: 4%;
-    background-color: var(--white);
-   
   }
   .main {
-    min-height: calc(100vh - 9.3rem);  
-   
+    min-height: calc(100vh - 9.3rem);
   }
 }

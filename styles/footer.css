@@ -1,10 +1,19 @@
 .footer {
-  position: fixed;
   width: 100%;
+  margin-top: auto;
   padding-bottom: 1rem;
   padding-top: 1rem;
   flex-direction: column;
   background-color: var(--orange);
+}
+.footer__inner{
+  justify-content: center;
+  width: 100%;
+  max-width: var(--maxWidth);  
+  margin: 0 auto;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer__menu-list {
@@ -20,6 +29,11 @@
   font-weight: 100;
   color: var(--white);
   transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.footer__menu-element:hover {
+  background-color: var(--lightRed);
 }
 
 .footer__icon-list {
@@ -31,14 +45,17 @@
   padding: 0.7rem;
   font-size: 0.9rem;
   color: var(--white);
+  cursor: pointer;
 }
 
-
 @media (min-width: 700px) {
-  .footer{
-  flex-direction: row;
-  justify-content: space-between;
-  padding-right: 5rem;
-  padding-left: 5rem;
- }
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer__inner {
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }

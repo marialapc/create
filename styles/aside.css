@@ -6,9 +6,8 @@
   .aside {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 1.5rem;
     gap: 1rem;
-    margin-right: 4%;
     background-color: var(--green);
   }
   .aside__div {

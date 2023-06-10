@@ -15,6 +15,11 @@ body {
   font-family: var(--fontPrimary);
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .is-align {
   display: flex;
   align-items: center;

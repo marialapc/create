@@ -1,6 +1,9 @@
 .main__section {
   display: flex;
+  max-width: var(--maxWidth);
+  margin: 0 auto;
   background-color: var(--white);
+  flex: 1 1 auto;
 }
 .main {
   flex-direction: column;
@@ -10,7 +13,6 @@
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1.9rem;
-  min-height: calc(100vh - 14.4rem);
 }
 
 .main__article {
@@ -49,10 +51,7 @@
 }
 
 @media (min-width: 700px) {
-  .main__section {
-    margin-left: 4%;
-  }
   .main {
-    min-height: calc(100vh - 9.3rem);
+    max-width: var(--maxWidth);
   }
 }

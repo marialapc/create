@@ -1,3 +1,4 @@
+
 .main {
   flex-direction: column;
   justify-content: flex-start;
@@ -7,7 +8,6 @@
   padding-left: 1rem;
   padding-right: 1.9rem;
   min-height: calc(100vh - 14.4rem);
-  background-color: var(--white);
 }
 
 .main__article {
@@ -46,9 +46,14 @@
 }
 
 @media (min-width: 700px) {
-  .main {
-    min-height: calc(100vh - 9.3rem);
-    width: 9%6;
+  .main__section{
+    display: flex;
     margin-left: 4%;
+    background-color: var(--white);
+   
+  }
+  .main {
+    min-height: calc(100vh - 9.3rem);  
+   
   }
 }

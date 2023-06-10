@@ -3,6 +3,8 @@
   gap: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1.9rem;
   min-height: calc(100vh - 14.4rem);
 }
 
@@ -10,8 +12,6 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1.7rem;
 }
 
 .article__title {
@@ -33,7 +33,8 @@
 }
 
 .black-bar{
-  height: 1rem;
+  width: 100%;
+  height: 0.125rem;
   background-color: black;
 }
 .grey-bar{

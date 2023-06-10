@@ -48,5 +48,7 @@
 @media (min-width: 700px) {
   .main {
     min-height: calc(100vh - 9.3rem);
+    width: 9%6;
+    margin-left: 4%;
   }
 }

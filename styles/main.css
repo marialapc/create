@@ -14,7 +14,7 @@
   padding: var(--gutter) 1.9rem var(--gutter);
 }
 
-.main__article {
+.article {
   flex-direction: column;
   align-items: flex-start;
   gap: 0.5rem;
@@ -28,23 +28,23 @@
   font-size: 0.8rem;
 }
 
-.article__text-middle {
+.article__text--middle {
   padding-right: 2rem;
 }
 
-.middle-section {
+.article__section {
   display: flex;
   gap: var(--gutter);
   padding-left: var(--gutter);;
 }
 
-.black-bar {
+.separator {
   width: 100%;
   height: 1px;
   border-bottom: 1px solid var(--black);
 }
 
-.grey-bar {
+.quote-bar {
   height: inherit;
   border: 2px solid var(--grey);
   background-color: var(--grey);

@@ -28,29 +28,6 @@
 
 .header__menu {
   width: 100%;
-  max-width: 30rem;
-}
-
-.header__menu-list {
-  justify-content: space-around;
-  list-style: none;
-  background-color: var(--red);
-}
-
-.header__menu-element {
-  flex: 1 1 auto;
-  padding: 0.8rem;
-  text-align: center;
-  font-size: 0.9rem;
-  font-weight: 100;
-  color: var(--white);
-  background-color: var(--red);
-  transition: background-color 0.2s ease;
-  cursor: pointer;
-}
-
-.header__menu-element:hover {
-  background-color: var(--lightRed);
 }
 
 @media (min-width: 43rem) {
@@ -60,5 +37,9 @@
 
   .header__container {
     margin: 0;
+  }
+
+  .header__menu {
+    max-width: 30rem;
   }
 }

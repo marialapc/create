@@ -28,6 +28,7 @@
 
 .header__menu {
   width: 100%;
+  margin: 0 auto;
 }
 
 @media (min-width: 43rem) {
@@ -41,5 +42,22 @@
 
   .header__menu {
     max-width: 30rem;
+  }
+}
+
+@media (max-width: 55rem) {
+  .header__container {
+    flex: 1 1 100%;
+    margin: 0 auto;
+  }
+
+  .header__menu {
+    margin: 0 auto 1rem;
+  }
+}
+
+@media (max-width: 43rem) {
+  .header__menu {
+    margin-bottom: 0;
   }
 }

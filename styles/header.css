@@ -1,17 +1,19 @@
 .header {
-  background-color: var(--orange);
   flex-direction: column;
+  background-color: var(--orange);
 }
-.header__inner{
-  width: 100%;
-  max-width: 72rem;
+
+.header__inner {
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: var(--maxWidth);
   padding-right: 0;
 }
+
 .header__container {
-  margin: 0 auto;
   gap: 0.5rem;
+  margin: 0 auto;
   padding: 1.2rem;
 }
 
@@ -26,6 +28,7 @@
 
 .header__menu {
   width: 100%;
+  max-width: 30rem;
 }
 
 .header__menu-list {
@@ -53,10 +56,6 @@
 @media (min-width: 43rem) {
   .header__inner {
     padding-right: 2rem;
-  }
-
-  .header__menu {
-    width: 30rem;
   }
 
   .header__container {

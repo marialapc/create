@@ -1,18 +1,19 @@
 .aside {
   display: none;
+  flex-direction: column;
+  gap: var(--gutter);
+  padding: 1.5rem;
+  background-color: var(--green);
+}
+
+.aside__block {
+  width: 12rem;
+  height: 8rem;
+  background-color: var(--orange);
 }
 
 @media (min-width: 43rem) {
   .aside {
     display: flex;
-    flex-direction: column;
-    padding: 1.5rem;
-    gap: 1rem;
-    background-color: var(--green);
-  }
-  .aside__div {
-    width: 12rem;
-    height: 8rem;
-    background-color: var(--orange);
   }
 }

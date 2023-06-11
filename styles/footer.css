@@ -1,19 +1,20 @@
 .footer {
+  flex-direction: column;
   width: 100%;
   margin-top: auto;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  flex-direction: column;
+  padding-top: var(--gutter);
+  padding-bottom: var(--gutter);
   background-color: var(--orange);
 }
+
 .footer__inner {
+  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   width: 100%;
   max-width: var(--maxWidth);  
   margin: 0 auto;
-  padding: 0 1rem;
-  flex-wrap: wrap;
-  flex-direction: column;
+  padding: 0 var(--gutter);
 }
 
 .footer__menu-list {
@@ -49,13 +50,9 @@
 }
 
 @media (min-width: 43rem) {
-  .footer {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
+  .footer,
   .footer__inner {
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
   }
 }

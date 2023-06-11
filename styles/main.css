@@ -1,9 +1,9 @@
 .main__section {
   display: flex;
+  flex: 1 1 auto;
   max-width: var(--maxWidth);
   margin: 0 auto;
   background-color: var(--white);
-  flex: 1 1 auto;
 }
 .main {
   flex-direction: column;
@@ -50,7 +50,7 @@
   background-color: var(--grey);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 43rem) {
   .main {
     max-width: var(--maxWidth);
   }

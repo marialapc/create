@@ -6,7 +6,7 @@
   flex-direction: column;
   background-color: var(--orange);
 }
-.footer__inner{
+.footer__inner {
   justify-content: center;
   width: 100%;
   max-width: var(--maxWidth);  
@@ -48,7 +48,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 43rem) {
   .footer {
     flex-direction: row;
     justify-content: space-between;

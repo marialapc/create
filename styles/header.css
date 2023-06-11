@@ -35,7 +35,9 @@
 }
 
 .header__menu-element {
+  flex: 1 1 auto;
   padding: 0.8rem;
+  text-align: center;
   font-size: 0.9rem;
   font-weight: 100;
   color: var(--white);
@@ -48,17 +50,13 @@
   background-color: var(--lightRed);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 43rem) {
   .header__inner {
     padding-right: 2rem;
-  } 
-  .header__menu {
-    width: 30rem;
   }
 
-  .header__menu-element {
-    width: calc(100% / 4);
-    text-align: center;
+  .header__menu {
+    width: 30rem;
   }
 
   .header__container {
